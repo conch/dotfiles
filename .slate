@@ -23,6 +23,18 @@ bind pad7:ctrl;cmd corner top-left resize:${halfXhalfY}
 bind pad8:ctrl;cmd corner top-left resize:${fullXhalfY}
 bind pad9:ctrl;cmd corner top-right resize:${halfXhalfY}
 
+# Move with ctrl-arrow
+bind left:ctrl;cmd  nudge -100  +0
+bind up:ctrl;cmd    nudge +0    -100
+bind right:ctrl;cmd nudge +100  +0
+bind down:ctrl;cmd  nudge +0    +100
+
+# Resize Bindings
+bind right:alt resize +10% +0
+bind left:alt  resize -10% +0
+bind up:alt    resize +0   -10%
+bind down:alt  resize +0   +10%
+
 # Select windows positionally
 bind h:alt focus left
 bind l:alt focus right
