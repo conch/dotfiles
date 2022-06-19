@@ -1,0 +1,3 @@
+[submodule "vimconfig/pack/conch/start/vim-colors-solarized"]
+	path = vimconfig/pack/conch/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
